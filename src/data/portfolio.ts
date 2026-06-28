@@ -78,6 +78,7 @@ export type Project = {
   description: string;
   technologies: string[];
   icon: LucideIcon;
+  images?: string[];
   liveUrl?: string;
   githubUrl?: string;
 };
@@ -89,6 +90,14 @@ export const projects: Project[] = [
       'Sistema de bolão para Copa do Mundo com salas, palpites, ranking, autenticação e integração com API de jogos.',
     technologies: ['Java', 'Spring Boot', 'React', 'PostgreSQL', 'JWT', 'Vercel', 'Render'],
     icon: ShieldCheck,
+    images: [
+      `${import.meta.env.BASE_URL}Palpitometro/login.jpeg`,
+      `${import.meta.env.BASE_URL}Palpitometro/menu.jpeg`,
+      `${import.meta.env.BASE_URL}Palpitometro/salas.jpeg`,
+      `${import.meta.env.BASE_URL}Palpitometro/criacao-de-sala.jpeg`,
+      `${import.meta.env.BASE_URL}Palpitometro/jogo-ao-vivo.jpeg`,
+      `${import.meta.env.BASE_URL}Palpitometro/ranking.jpeg`,
+    ],
     liveUrl: 'https://papitometro-copa.vercel.app/',
     githubUrl: 'https://github.com/Bielfla27/papitometro-copa',
   },
@@ -98,6 +107,12 @@ export const projects: Project[] = [
       'Site institucional para advogado criminalista, com apresentação profissional, áreas de atuação e canais de contato.',
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
     icon: Globe2,
+    images: [
+      `${import.meta.env.BASE_URL}Pedro_adv/a.png`,
+      `${import.meta.env.BASE_URL}Pedro_adv/b.png`,
+      `${import.meta.env.BASE_URL}Pedro_adv/c.png`,
+      `${import.meta.env.BASE_URL}Pedro_adv/d.png`,
+    ],
     liveUrl: 'https://bielfla27.github.io/pedro_alexandre_adv_page/',
     githubUrl: 'https://github.com/Bielfla27/pedro_alexandre_adv_page',
   },
