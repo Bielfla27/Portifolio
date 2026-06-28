@@ -98,7 +98,7 @@ export const projects: Project[] = [
       'Site institucional para advogado criminalista, com apresentação profissional, áreas de atuação e canais de contato.',
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
     icon: Globe2,
-    liveUrl: 'https://pedroalexandrecriminal.com/',
+    liveUrl: 'https://bielfla27.github.io/pedro_alexandre_adv_page/',
     githubUrl: 'https://github.com/Bielfla27/pedro_alexandre_adv_page',
   },
   {
