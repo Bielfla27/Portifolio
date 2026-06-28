@@ -19,8 +19,8 @@ import type { IconType } from 'react-icons';
 
 export const profile = {
   name: 'Gabriel Felix',
-  role: 'Desenvolvedor Java Pleno',
-  shortRole: 'Dev Java Pleno',
+  role: 'Desenvolvedor Java ',
+  shortRole: 'Dev Java ',
   email: 'gabibielmft@gmail.com',
   whatsapp: '87996486942',
   github: 'https://github.com/Bielfla27',

@@ -4,7 +4,7 @@ import { Section } from './Section';
 
 export function About() {
   return (
-    <Section id="sobre" className="pt-8">
+    <Section id="sobre" className="pt-0">
       <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
         <div>
           <span className="section-kicker">

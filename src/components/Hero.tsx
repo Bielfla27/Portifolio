@@ -17,8 +17,8 @@ const javaSnippet = [
 
 export function Hero() {
   return (
-    <section id="inicio" className="container-shell min-h-screen scroll-mt-24 pt-28 sm:pt-36">
-      <div className="grid min-h-[calc(100vh-8rem)] min-w-0 items-center gap-12 lg:grid-cols-[1fr_0.95fr]">
+    <section id="inicio" className="container-shell scroll-mt-24 pt-28 sm:pt-32 lg:pt-30">
+      <div className="grid min-w-0 items-center gap-12 pb-12 lg:grid-cols-[1fr_0.95fr]">
         <motion.div
           className="min-w-0"
           initial={{ opacity: 0, y: 28 }}
