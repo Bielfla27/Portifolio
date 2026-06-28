@@ -4,6 +4,7 @@ import { navItems, profile } from '../data/portfolio';
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const cvUrl = `${import.meta.env.BASE_URL}cv-gabriel-felix.pdf`;
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-night/75 backdrop-blur-2xl">
@@ -32,7 +33,7 @@ export function Header() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <a
-            href="/cv-gabriel-felix.pdf"
+            href={cvUrl}
             className="inline-flex h-11 items-center gap-2 rounded-lg bg-violet-600 px-4 text-sm font-semibold text-white shadow-glow transition hover:bg-violet-500"
           >
             Baixar CV <Download size={16} />
@@ -63,7 +64,7 @@ export function Header() {
               </a>
             ))}
             <a
-              href="/cv-gabriel-felix.pdf"
+              href={cvUrl}
               className="mt-2 inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-violet-600 px-4 text-sm font-semibold text-white"
             >
               Baixar CV <Download size={16} />

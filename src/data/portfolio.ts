@@ -25,7 +25,7 @@ export const profile = {
   whatsapp: '87996486942',
   github: 'https://github.com/Bielfla27',
   linkedin: 'https://www.linkedin.com/in/gabriel-felix-477015219',
-  image: '/gabriel-profile.png',
+  image: `${import.meta.env.BASE_URL}gabriel-profile.png`,
   description:
     'Desenvolvedor full stack com foco em Java, Spring Boot, React, PL/SQL Oracle e construção de aplicações modernas, escaláveis e seguras.',
   about:
